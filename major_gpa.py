@@ -6,7 +6,7 @@ import sys
 import re
 
 def convert_points(classes):
-  '''converts units and gap points from string to float and returns new list'''
+  '''converts units and gpa points from string to float and returns new list'''
   fixed = []
   for (dep, num, name, units, points) in classes:
     if float(points) != 0.0 and dep == 'CSE':
